@@ -11,8 +11,8 @@ import './form.css'
 import { toast } from 'react-toastify'
 import axios from 'axios'
 
-// const dbUrl = 'https://squarefoot-adda-default-rtdb.firebaseio.com//'
-const dbUrl = 'https://sqf-adda-1876c-default-rtdb.firebaseio.com/'
+const dbUrl = 'https://squarefoot-adda-default-rtdb.firebaseio.com/'
+// const dbUrl = 'https://sqf-adda-1876c-default-rtdb.firebaseio.com/'
 
 const Form = ({ projectName }) => {
   const [formData, setFormData] = useState({
