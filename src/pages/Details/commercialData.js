@@ -234,17 +234,28 @@ const commercialData = [
           'Landscape - Mini greens at M3M Jewel will be a rare green sight in the overall landscape of sector 25',
           'Interior Experience - Inviting Store designs, appearance of brands behind the impressive façade is all set to leave a mark on every visitor',
         ],
-
-        priceList: [
+        plotData: [
           {
-            type: 'Type 1',
-            size: '1.32 Acres(5344.61 sq. mts.)',
-            numberOfStoreys: 'G+8',
-            height: '40 M',
-            noOfBasements: '3 Basements',
+            id: 1,
+            label: 'Plot Area',
+            details: '1.32 Acres (5344.61 sq. mts.)',
+          },
+          {
+            id: 2,
+            label: 'Number of Storeys',
+            details: 'G+8',
+          },
+          {
+            id: 3,
+            label: 'Height',
+            details: '40 M',
+          },
+          {
+            id: 4,
+            label: 'Number of Basements',
+            details: '3 Basements',
           },
         ],
-
         highlights: [
           'Best Suited for Flagship stores of International brands',
           'Impeccable mix of luxury retail and F&B',
